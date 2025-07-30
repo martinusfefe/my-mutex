@@ -12,13 +12,11 @@
   },
   "author": "@martinusfefe",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.8.3"
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build",
-    "push": "npm version patch && git push",
-    "publish": "npm publish --access public"
+    "prepare": "npm run build && npm version patch"
   }
 }
