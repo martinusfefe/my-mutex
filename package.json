@@ -7,8 +7,8 @@
     "type": "git",
     "url": "git+https://github.com/martinusfefe/my-mutex.git"
   },
-  "release": {
-    "repositoryUrl": ""
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "@martinusfefe",
   "license": "MIT",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
+    "push": "npm version patch && git push",
     "publish": "npm publish --access public"
   }
 }
