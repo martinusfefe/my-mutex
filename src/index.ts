@@ -1,4 +1,4 @@
-abstract class MyMutexStorage {
+export abstract class MyMutexStorage {
     getValue(key: string): Promise<string | null> | string | null {
         throw new Error("Method not implemented.");
     }
