@@ -17,6 +17,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build && npm version patch"
+    "prepare": "npm version patch && npm run build"
   }
 }
