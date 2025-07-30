@@ -1,0 +1,22 @@
+{
+  "name": "my-mutex",
+  "version": "1.0.2",
+  "description": "Mutex class supporting custom lock storage providers.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinusfefe/my-mutex.git"
+  },
+  "release": {
+    "repositoryUrl": ""
+  },
+  "author": "@martinusfefe",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public"
+  }
+}
