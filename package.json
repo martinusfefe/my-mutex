@@ -1,6 +1,6 @@
 {
   "name": "my-mutex",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Mutex class supporting custom lock storage providers.",
   "main": "dist/index.js",
   "repository": {
